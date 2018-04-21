@@ -1,12 +1,12 @@
 # rShell
 
 ------------------
-<h1>About this project
+# About this project
 ------------------
 This is a command shell written in c++. It can execute commands located in /bin/. The user must have /bin/ in their directory to properly execute commands. The exit function for this is "exit". By using rShell, you can have access to Unix commands in a C++ environment.
 
 -----------------
-<h2> Installation
+# Installation
 -----------------
 1. <code>git clone https://github.com/edzabrensky/rshell.git</code>
 2. <code>cd rshell</code>
@@ -15,7 +15,7 @@ This is a command shell written in c++. It can execute commands located in /bin/
 5. <code>bin/rshell</code>
 
 --------------
-<h2>Uses of rShell
+# Uses of rShell
 --------------
 rShell behaves exactly like a [command shell](http://pubs.opengroup.org/onlinepubs/007904875/utilities/xcu_chap02.html). 
 
@@ -47,7 +47,7 @@ rShell allows the use of connectors, namely: <code>&&, ||, ;</code>
 <code>ls -a; echo hello; mkdir test || echo world; ls && touch newfile || exit</code>
     
 ----------    
-<h2>Test Files
+# Test Files
 ----------
 <p>To use test files: go into the <code>root</code> directory and type <code>./tests/(NameOfTestFile)</code>
 <p>Available test files:
@@ -59,7 +59,7 @@ rShell allows the use of connectors, namely: <code>&&, ||, ;</code>
 <code>precedence_test.sh</code>
 
 ----
-<h2>Bugs
+# Bugs
 ----
 * After running tests, there are occasions where <code>exit</code> has to be typed twice to successfully end the program
 * Invalid commands occasionally have the wrong error message associated with them; in particular, the error message's source will be from the terminal instead of from the program
